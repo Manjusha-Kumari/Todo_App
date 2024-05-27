@@ -10,11 +10,11 @@ import './style.css';
 function App() {
   return (
     <div className='todo-container'>
-      <Header />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      <Header title='Todo App'/>
+      <TodoItem text='Eat'/>
+      <TodoItem text='Exercise'/>
+      <TodoItem completed={true} text='Drink Milk'/>
+      <TodoItem text='Sleep'/>
       <Button />
     </div>
   )

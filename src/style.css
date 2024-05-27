@@ -27,6 +27,7 @@ body {
     border: none;
     font-weight: bold;
     cursor: pointer;
+    background-color: darkgray;
 }
 
 .todo-item-text {
